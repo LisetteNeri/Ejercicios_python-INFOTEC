@@ -5,6 +5,7 @@ from functools import reduce
 emisiones =[1.2, 3.4, 0.9, 2.5, 5.6, 1.8]
 
 #Convertiremos las toneladas a kilogramos usando map
+
 toneladas_a_kilogramos=list(map(lambda x: x * 1000, emisiones))
 
 #Filtramos las que superan 2000 kg con el uso de filter
@@ -17,7 +18,9 @@ mayor_a_menor = sorted (emisiones_altas, reverse=True)
 suma = reduce(lambda x, y: x+y, emisiones_altas)
 promedio = suma /len(emisiones_altas) if emisiones_altas else 0
 
-print(promedio)
-
-
+print("\nLas emisiones registradas en toneladas por casa son las siguientes: ", emisiones)
+print("Las emisiones convertidas a kilogramos son: ", toneladas_a_kilogramos)
+print("Las emisiones altas (que son mayores a 2000) son: ", emisiones_altas)
+print("Las emisiones ordenadas de mayor a menor son: ", mayor_a_menor)
+print("El promedio de las concentraciones altas es: ", promedio)
 
