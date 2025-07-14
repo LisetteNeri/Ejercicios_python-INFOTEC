@@ -1,4 +1,19 @@
-"""Para este ejercicio usaremos una lista que simulda
+"""Ejercicio 3. Funciones map, filter, sorted, reduce
+    - Funcion map: aplica una funcion a cada elemento de una
+     secuencia (como una lista) y devuelve un iterador con
+     los resultados.
+     map (funcion, iterable)
+    - Funcion filter: filtra los elementos de una secuencia usando
+     una funcion que devuelve True o False
+     filter(funcion, iterable)
+    - Funcion reduce: Aplica una funcion de forma acumulativa a los
+     elementos de un iterable
+     from functools import reduce
+     reduce(funcion, iterable)
+    - Funcion sorted: Devuelve una nueva lista ordenada a partir de un iterable
+     sorted(iterable, key=funcion, reverse=True/False)
+
+Para este ejercicio usaremos una lista que simulda
 las emisiones de CO2 en toneladas por casa"""
 
 from functools import reduce
