@@ -4,6 +4,7 @@ usando solo una línea.
 Para este ejercicio vamos a generar un diccionario de ciudades y temperaturas,
 adicionalmente haremos uso de la función zip para unir elementos de dos listas
 posición por posición.
+Sintaxis: {clave: valor for elemento in iterable}
 """
 #listas
 ciudades= ["CDMX","GUADALAJARA", "MONTERREY", "CANCÚN"]
